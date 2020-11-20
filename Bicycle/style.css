@@ -1,0 +1,672 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url('fonts/Lato Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url('fonts/Lato Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato Italic";
+  src: url('fonts/Lato Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url('fonts/Lato Light.ttf');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 682px;
+  background-image: url('images/top.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  /*width: 1600px;*/
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list {
+  font-size: 13px;
+  font-family: "Lato Bold";
+  list-style-type: none;
+  margin-right: 83px;
+  text-transform: uppercase;
+}
+.menu-list:last-child {
+  margin-right: 0px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #4d4959;
+}
+
+.logo {
+  width: 95px;
+}
+
+.main {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  padding-top: 115px;
+  padding-bottom: 145px;
+  background-color: #f7f7f7;
+}
+
+.icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-name {
+  padding-top: 33px;
+  font-size: 18px;
+  font-family: "Lato Bold";
+  color: #353738;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-description {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1050px;
+  font-size: 18px;
+  font-family: "Lato Regular";
+  color: #848789;
+  line-height: 34px;
+}
+
+.card-description p {
+  text-align: center;
+  margin: 0;
+}
+
+.olivia-bycicle {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.olivia-name {
+  font-size: 18px;
+  font-family: "Lato Bold";
+  color: #353738;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.olivia-img {
+  width: 66%;
+  height: 600px;
+  background-image: url('images/bycicle-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-byke {
+  width: 113px;
+  height: 118px;
+}
+
+.text-image {
+  width: 34%;
+  z-index: 1;
+  position: relative;
+  padding-top: 67px;
+  
+}
+
+.bycicle-img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.icon-byke {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.olivia-description {
+  width: 410px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  font-family: "Lato Regular";
+  color: #848789;
+  line-height: 30px;
+}
+
+.olivia-description::after {
+ content: "";
+ display: block;
+ height: 1px;
+ width: 50px;
+ background-color: #d7d7d7;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 40px;
+ margin-bottom: 55px;
+}
+
+
+
+.olivia-description p {
+  display: inline;
+  text-align: center;
+  margin: 0;
+}
+
+.vintage-bycicle {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.text-image-vintage {
+  width: 34%;
+  z-index: 1;
+  position: relative;
+  padding-top: 67px;
+}
+
+.vintage-img {
+  width: 66%;
+  height: 600px;
+  background-image: url('images/vintage-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-byke {
+  width: 177px;
+  height: 152px;
+}
+
+
+.retro-bycicle {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.retro-img {
+  width: 34%;
+  height: 600px;
+  background-image: url('images/retro-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo-retro {
+  width: 208px;
+  height: 67px;
+}
+
+
+.text-image-retro {
+  width: 33%;
+  z-index: 1;
+  position: relative;
+  padding-top: 67px;
+}
+
+
+
+.retro-img-two {
+  width: 33%;
+  height: 600px;
+  z-index: 2;
+  background-image: url('images/retro-two-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+.slider {
+  padding-top: 122px;
+  background-color: #f7f7f7;
+  position: relative;
+  height: 345px;
+}
+
+.slider__items {
+  height: 100%;
+}
+
+.slider__item {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+.slider__item_active {
+  display: block;
+}
+
+
+.twitter-link {
+  padding-top: 35px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.twitter-name {
+  font-family: "Lato Bold";
+  color: #000000;
+}
+
+.twitter-time {
+  font-family: "Lato Light";
+  color: #848789;
+}
+
+.twitter-link a {
+  text-decoration: none;
+}
+
+.twitter-description {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1070px;
+  font-size: 24px;
+  font-family: "Lato Italic";
+  color: #848789;
+  line-height: 34px;
+}
+
+.twitter-description p {
+  text-align: center;
+  margin: 0;
+}
+
+.slider__dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.slider__dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #a9afb3;
+  border-radius: 50%;
+  background: #ffffff;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.slider__dot:last-child {
+  margin-right: 0;
+}
+
+.slider__dot_active {
+  background: #a9afb3;
+}
+
+.slider__dot:hover {
+  background: #a9afb3;
+}
+
+
+.cards-shop {
+  background-color: #ffffff;
+  max-width: 1519px;
+  height: 534px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cards-shop-part-one {
+  width: 34%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-part-one {
+  display: flex;
+  flex-wrap: wrap;
+  height: 48%;
+}
+
+
+
+.part-one {
+  width: 50%;
+}
+
+.part-two {
+  width: 50%;
+}
+
+.cards-shop-part-two {
+  width: 16%;
+}
+
+.cards-shop-part-three {
+  width: 16%;
+}
+
+.cards-shop-part-four {
+  width: 34%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card-part-one {
+  width: 100%;
+  height: 265px;
+  background-image: url('images/seat-six.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.card-part-one::after {
+  content: "";
+  position: absolute;
+  background-color: #58a589;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+
+
+.card-container {
+  position: relative;
+  z-index: 2;
+}
+
+.card-part-two {
+  display: flex;
+  width: 97%;
+  position: absolute;
+  bottom: 0.75%;
+}
+
+
+
+
+.discover-shop {
+  background-color: #282f35;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #94979a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-button {
+  font-family: "Lato Bold";
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.subscribe-item {
+  background-color: #ffffff;
+  padding-top: 108px;
+  padding-bottom: 112px;
+}
+
+.subscribe-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 37px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-name {
+  font-size: 24px;
+  line-height: 34px;
+  font-family: "Lato Italic";
+  color: #848789;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.email-adress {
+  box-sizing: border-box;
+  width: 400px;
+  height: 68px;
+  font-size: 20px;
+  font-family: "Lato Italic";
+  padding: 26px 20px 22px 28px;
+  border: 1px solid #848789;
+  background-color: #ffffff;
+  color: #929292;
+}
+
+.subscribe {
+  box-sizing: border-box;
+  width: 127px;
+  height: 68px;
+  border: none;
+  background-color: #64c29e;
+  border: 1px solid #64c29e;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato Light";
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+.email-adress:hover {
+  background-color: #dfe7e4;
+  border: 1px solid #9bbaae;
+}
+
+.subscribe:hover, .subscribe:active {
+  background-color: #246149;
+}
+
+
+
+.footer {
+  background-color: #f7f7f7;
+  padding-top: 97px;
+  padding-bottom: 100px;
+}
+
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 250px;
+  padding-right: 250px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.info {
+  color: #848789;
+  font-size: 12px;
+  line-height: 18px;
+  width: 205px;
+  font-family: "Lato Italic";
+}
+
+.info-new-york {
+  width: 105px;
+}
+
+.info-avenue {
+  width: 180px;
+}
+
+.max-aod {
+  text-transform: uppercase;
+}
+
+.aod-new-york {
+  font-family: "Lato Bold";
+}
+
+.info a {
+  text-decoration: none;
+  color: #848789;
+}
+
+.social-network {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.socials {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.socials-item {
+  list-style-type: none;
+}
+
+.socials-item:nth-child(n+1) {
+  margin-right: 15px;
+}
+
+.socials-item:last-child {
+  margin-right: 0;
+}
+
+.socials-link {
+  width: 35px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-color: #f4f7f6;
+  background-position: center;
+  display: block; 
+}
+
+.socials-link-twitter {
+  background-image: url("images/icon7.png");
+}
+
+.socials-link-pinterest {
+  background-image: url("images/icon9.png");
+}
+
+.socials-link-facebook {
+  background-image: url("images/icon8.png");
+}

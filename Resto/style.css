@@ -1,0 +1,464 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Aleo Bold";
+  src: url('fonts/Aleo-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo Regular";
+  src: url('fonts/Aleo-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo LightItalic";
+  src: url('fonts/Aleo-LightItalic.otf');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "WCManoNegraBta";
+  src: url('fonts/WCManoNegraBta.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url('fonts/Myriad Pro.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aleo Light";
+  src: url('fonts/Aleo-Light.otf');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.header {
+  padding-top: 41px;
+}
+
+.container {
+  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.logo-menu {
+  padding-right: 180px;
+  padding-left: 180px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-logo {
+  width: 69px;
+}
+
+.resto-points {
+  display: inline-block;
+}
+
+
+.menu a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+.menu {
+  font-size: 14px;
+  font-family: "Aleo Regular";
+  line-height: 60px;
+  margin-left: auto;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.menu-list-item:nth-child(n+1) {
+  margin-right: 51px;
+}
+
+.menu-list-item:last-child {
+  margin-right: 0;
+}
+
+.header-title {
+  padding-top: 206px;
+  padding-bottom: 209px;
+  width: 100%;
+  background-image: url("images/billbord.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #f34949;
+}
+
+.header-title::after {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+}
+
+.title {
+  position: relative;
+  z-index: 3;
+}
+
+.header-name {
+  width: 775px;
+  color: #ffffff;
+  font-size: 70px;
+  line-height: 60px;
+  font-family: "WCManoNegraBta";
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-name-two {
+  font-family: "Aleo Regular";
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-name-two::before, .header-name-two::after {
+  content: "";
+  display: block;
+  width: 37px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.header-name-two::before {
+  margin-right: 17px;
+}
+
+.header-name-two::after {
+  margin-left: 17px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu-logo {
+  width: 100%;
+  position: relative;
+}
+
+.menu-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*.menu-title {
+  position: absolute;
+  top: 5%;
+  left: 42%;
+  transform: translateX(42%);
+  font-size: 20px;
+  line-height: 60px;
+  font-family: "Aleo Bold";
+  color: #ffffff;
+}*/
+
+.menu-resto {
+  margin-top: 80px;
+  display: flex;
+}
+
+.menu-resto {
+  width: 100%;
+}
+
+.menu-left {
+  width: 47%;
+  margin-right: 6%;
+}
+
+.menu-right {
+  width: 47%;
+}
+
+.menu-dish {
+  margin-bottom: 60px;
+}
+
+.menu-dish:last-child {
+  margin-bottom: 0;
+}
+
+.menu-dish-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish {
+  font-size: 16px;
+  font-family: "Aleo Regular";
+  color: #555555;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dish::after {
+  content: "";
+  display: block;
+  width: 193px;
+  height: 1px;
+  background-color: #b7b7b7;
+  margin-left: 43px;
+}
+
+.price {
+  font-size: 16px;
+  font-family: "Aleo Regular";
+  color: #555555;
+}
+ 
+.dish-description {
+  font-size: 12px;
+  font-family: "Aleo LightItalic";
+  color: #b7b7b7;
+}
+
+.loadMore {
+  margin-top: 91px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #b7b7b7;
+  padding: 7px 12px 7px 12px;
+}
+
+.loadMore a {
+  text-decoration: none;
+}
+
+.text-loadMore {
+  font-size: 14px;
+  font-family: "Aleo Regular";
+  line-height: 20px;
+  color: #b7b7b7;
+  margin-right: 11px;
+}
+
+.shape {
+  margin-right: 13px;
+}
+
+.loadMore:hover, .loadMore:active {
+  border: 1px solid #c39090;
+  background-color: #ecbaba;
+}
+
+.featured-dishes {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.featured-dishes-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.featured-dishes-name {
+  margin: 0;
+  font-family: "Aleo Bold";
+  font-size: 20px;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-dishes-name::after {
+  content: "";
+  display: block;
+  width: 196px;
+  height: 1px;
+  background-color: #dedede;
+  margin-left: 20px;
+}
+
+.slider__dots {
+  display: flex;
+}
+
+.slider__dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #dedede;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.slider__dot:last-child {
+  margin-right: 0;
+}
+
+.slider__dot_active {
+  background: #9b9b9b;
+}
+
+.slider__dot:hover {
+  background: #9b9b9b;
+}
+
+.slider__items {
+  display: flex;
+}
+
+.slider__item {
+  width: 20%;
+  margin-right: 71.9px;
+}
+
+.slider__item_active {
+  display: block;
+}
+
+.dishes-card:last-child {
+  margin-right: 0;
+}
+
+.dishes-price {
+  margin-top: 31px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish-price {
+  font-family: "Aleo Light";
+  font-size: 16px;
+  color: #555555;
+}
+
+.gallery {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  /*padding-right: 200px;
+  padding-left: 200px;*/
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+
+.gallery-cards {
+  display: flex;
+}
+
+.card-one {
+  width: 34%;
+  height: 432px;
+}
+
+.cards-image {
+  width: 33%;
+}
+
+.card-two {
+  width: 100%;
+  height: 216px;
+}
+
+
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #3b3b3b;
+}
+
+.footer-info {
+  display: flex;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.info {
+  margin-right: 11%;
+  width: 18%;
+  font-size: 16px;
+  color: #ececec;
+  font-family: "Aleo Light";
+  line-height: 30px;
+}
+
+.info:last-child {
+  margin-right: 0;
+  width: 21%;
+}
+
+.resto-info {
+  margin-bottom: 8px;
+}
+
+.footer-logo{
+  width: 67px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #ececec;
+}
+
+.upper-avenu {
+  text-transform: uppercase;
+}
+
+.info-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
